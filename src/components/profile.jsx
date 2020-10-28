@@ -1,18 +1,19 @@
 import React from 'react';
+import classes from './Profile.module.css'
 
 const Profile = () => {
   return (
-    <div className='content'>
-      <div className='content__inner'>
-        <div className='content__inner-cover'>
+    <div className={classes.content}>
+      <div className={classes.content__inner}>
+        <div className={classes.content__inner_cover}>
           <img src='https://www.sleekcover.com/covers/smile-black-facebook-cover.jpg'></img>
         </div>
 
-        <div className='content__inner-avatar'>
-          <div className='content__inner-pic'>
+        <div className={classes.content__inner_avatar}>
+          <div className={classes.content__inner_pic}>
             <img src='https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Bearded_Man-17-512.png'></img>
           </div>
-          <div className='content__inner-info'>
+          <div className={classes.content__inner_info}>
             <h3>G. Gabrielyan</h3>
 
             <p>Date of birth: 2 Apr</p>
@@ -22,14 +23,14 @@ const Profile = () => {
 
           </div>
         </div>
-        <div className='content__inner-posts'>
-          <div className='content__inner-header'>
+        <div className={classes.content__inner_posts}>
+          <div className={classes.content__inner_header}>
             <h4>My Posts</h4>
           </div>
-          <div className='content__inner-input'>
+          <div className={classes.content__inner_input}>
             <textarea cols="num" rows="num" placeholder='Your News'></textarea>
           </div>
-          <div className='content__inner-send'>
+          <div className={classes.content__inner_send}>
             <button>Send</button>
           </div>
         </div>

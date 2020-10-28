@@ -1,0 +1,20 @@
+
+.nav {
+	background: rgb(222, 237, 241);
+	height: 100vh;
+	flex-basis: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .nav div {
+	padding-top: 15px;
+  }
+  .nav a {
+	text-decoration: none;
+	color: black;
+  }
+  .nav a:hover {
+	text-decoration: underline;
+	color: rgb(0, 30, 128);
+  }

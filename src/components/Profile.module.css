@@ -1,0 +1,40 @@
+
+.content {
+	background: rgb(227, 243, 191);
+	flex-basis: 80%;
+  }
+  .content__inner_cover img {
+	height: 200px;
+	width: 100%;
+	min-width: 640px;
+  }
+  .content__inner_avatar {
+	display: flex;
+  }
+  .content__inner_pic img {
+	height: 120px;
+	margin-top: 10px;
+  }
+  .content__inner_pic {
+	align-self: center;
+  
+	margin: 0 20px;
+  }
+  .content__inner_info {
+	margin-left: 20px;
+  }
+  .content__inner_header h4 {
+	margin-left: 20px;
+  }
+  .content__inner_input textarea {
+	height: 50px;
+	width: 80%;
+	margin: 0 20px;
+  }
+  .content__inner_send button {
+	margin: 20px;
+	padding: 5px 30px;
+	background: green;
+	color: azure;
+  }
+  

@@ -1,8 +1,9 @@
 import React from 'react';
+import classes from './Header.module.css';
 
 const Header = () => {
 	return (
-		<header className='header'>
+		<header className={classes.header}>
 			<div className='container'>
 				<img src="https://cdn.onlinewebfonts.com/svg/img_2220.png"></img>
 
