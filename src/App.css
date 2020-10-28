@@ -6,7 +6,7 @@ p {
   margin: 6px 0;
 }
 .header {
-  background: green;
+  background: rgb(66, 249, 255);
   flex-basis: 100%;
 }
 .header img {
@@ -18,7 +18,7 @@ p {
   /* min-width: 100vh; */
 }
 .nav {
-  background: rgb(255, 221, 158);
+  background: rgb(222, 237, 241);
   height: 100vh;
   flex-basis: 20%;
   display: flex;
@@ -34,10 +34,10 @@ p {
 }
 .nav a:hover {
   text-decoration: underline;
-  color: green;
+  color: rgb(0, 30, 128);
 }
 .content {
-  background: rgb(235, 213, 255);
+  background: rgb(227, 243, 191);
   flex-basis: 80%;
 }
 .content__inner-cover img {
