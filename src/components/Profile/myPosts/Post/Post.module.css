@@ -1,6 +1,7 @@
 .post__wrapper{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   background: rgb(238, 238, 238);
   margin: 8px 16px;
 }
