@@ -26,23 +26,3 @@
   .content__inner_header h4 {
 	margin-left: 20px;
   }
-  .content__inner_input textarea {
-	height: 50px;
-	width: 80%;
-	margin: 0 20px;
-  }
-  .soemePosts{
-    padding: 20px;
-    position: relative;
-    padding-top: 30px;
-  }
-  .soemePosts::before{
-    content: "";
-    display: inline-block;
-    height: .5px;
-    width: 200px;
-    border: 1px solid rgb(195, 199, 140);
-    position: absolute;
-    left: 20;
-  }
-  

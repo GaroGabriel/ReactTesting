@@ -1,0 +1,41 @@
+.post__wrapper{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(238, 238, 238);
+  margin: 8px 16px;
+}
+.post__img_avatar{
+  height: 50px;
+  border-radius: 50%;
+  margin:5px 10px 10px 10px;
+  border: solid .5px grey;
+}
+.post__autor h5{
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+  .post__text{
+    padding: 20px;
+    position: relative;
+    padding-top: 30px;
+    display: inline-block;
+  }
+  .post__text::before{
+    content: "";
+    display: inline-block;
+    height: .5px;
+    width: 200px;
+    border: 1px solid rgb(195, 199, 140);
+    position: absolute;
+    left: 20;
+    top: 0;
+  }
+ .post__text span a{
+   text-decoration: none;
+   color: rgb(161, 161, 161);
+   margin: 0 10px;
+ }
+ .post__text span a:hover{
+color: green;
+}
+  
