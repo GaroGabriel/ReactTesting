@@ -31,10 +31,18 @@
 	width: 80%;
 	margin: 0 20px;
   }
-  .content__inner_send button {
-	margin: 20px;
-	padding: 5px 30px;
-	background: green;
-	color: azure;
+  .soemePosts{
+    padding: 20px;
+    position: relative;
+    padding-top: 30px;
+  }
+  .soemePosts::before{
+    content: "";
+    display: inline-block;
+    height: .5px;
+    width: 200px;
+    border: 1px solid rgb(195, 199, 140);
+    position: absolute;
+    left: 20;
   }
   

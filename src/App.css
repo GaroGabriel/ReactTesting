@@ -11,3 +11,9 @@ p {
   justify-content: space-around;
   /* min-width: 100vh; */
 }
+button{
+  margin: 20px;
+	padding: 5px 30px;
+	background: green;
+	color: azure;
+}

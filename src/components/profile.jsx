@@ -34,6 +34,12 @@ const Profile = () => {
             <button>Send</button>
           </div>
         </div>
+        <div className={classes.Posts}>
+          <div className={classes.soemePosts}>last post</div>
+          <div className={classes.soemePosts}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste corrupti voluptate, cupiditate iusto rem corporis consequatur ullam laboriosam enim.</div>
+          <div className={classes.soemePosts}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ullam!</div>
+        </div>
+
       </div>
     </div>
   )
