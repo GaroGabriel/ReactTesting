@@ -12,8 +12,8 @@ const Post = (props) => {
           <h5>{props.name}</h5>
         </div>
         <p>{props.text}</p>
-        <span> <a href="#">Like</a></span>
-        <span> <a href="#">Dislike</a></span>
+        <span> <a href="#">{props.like}Like</a></span>
+        <span> <a href="#">{props.dislike}Dislike</a></span>
       </div>
 
 

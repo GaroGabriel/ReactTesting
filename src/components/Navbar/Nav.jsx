@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import classes from './Nav.module.css'
 const Nav = () => {
   return (
     <nav className={classes.nav}>
       <div>
-        <a href="#">Profile</a>
+        <NavLink to="/profile">Profile</NavLink>
       </div>
       <div>
-        <a href="#">Massages</a>
+        <NavLink to="/massages">Massages</NavLink>
       </div>
       <div>
         <a href="#">News</a>

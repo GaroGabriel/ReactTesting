@@ -1,6 +1,9 @@
 import React from 'react';
 import classes from './MyPosts.module.css'
 import Post from './Post/Post'
+
+
+
 const MyPosts = () => {
   return (
     <div>
@@ -16,13 +19,13 @@ const MyPosts = () => {
         </div>
       </div>
       <div className={classes.Posts}>
-        <Post name='Jivan jan' text='last comment' img="https://www.pngkey.com/png/detail/303-3037888_boy-face-clipart-png.png" />
+        <Post name='Jivan jan' text='last comment' img="https://www.pngkey.com/png/detail/303-3037888_boy-face-clipart-png.png" like='10 ' dislike='0 ' />
 
-        <Post name='Վանուշ Խանամիրյան' text=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ullam.' img='https://image.freepik.com/free-vector/bearded-man-avatar-man-vector-portrait_9385-36.jpg' />
+        <Post name='Վանուշ Խանամիրյան' text=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ullam.' img='https://image.freepik.com/free-vector/bearded-man-avatar-man-vector-portrait_9385-36.jpg' like='0 ' dislike='0 ' />
 
-        <Post name='Գվուշ' text='some comment' img='https://freedesignfile.com/upload/2018/09/Cute-cartoon-pig-vector-design-03.jpg' />
+        <Post name='Գվուշ' text='some comment' img='https://freedesignfile.com/upload/2018/09/Cute-cartoon-pig-vector-design-03.jpg' like='10 ' dislike='100 ' />
 
-        <Post name='Боря' text='first comment' img='https://pyxis.nymag.com/v1/imgs/702/026/aa739477c50efd82f2597a95d776a9331f-looney-tunes-ranking-bugs-bunny.rsquare.w700.jpg' />
+        <Post name='Боря' text='first comment' img='https://pyxis.nymag.com/v1/imgs/702/026/aa739477c50efd82f2597a95d776a9331f-looney-tunes-ranking-bugs-bunny.rsquare.w700.jpg' like='200 ' dislike='0 ' />
       </div>
     </div>
   )
