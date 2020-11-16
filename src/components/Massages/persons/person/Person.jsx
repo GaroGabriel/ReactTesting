@@ -3,24 +3,24 @@ import React, { Component } from 'react';
 import './person.css'
 
 class Person extends Component {
-    // constructor(props) {
-    //     super(props)
-    // }
+    constructor(props) {
+        super(props)
+    }
     render() {
         return (
             <div className='person__wrapper'>
                 <div className='person__img'>
-                    <img src="https://caricom.org/wp-content/uploads/Floyd-Morris-Remake-1024x879-1.jpg" alt="" />
+                    <img src={this.props.img} alt={this.props.alt} />
                 </div>
                 <div className='person__info'>
                     <div className='person__info_name'>
-                        <span>name: John</span>
+                        <span>name: {this.props.name}</span>
                     </div>
                     <div className='person__info_Job'>
-                        <span>job: Meneger</span>
+                        <span>job: {this.props.job}</span>
                     </div>
                     <div className='person__info_age'>
-                        <span>age: 40 year</span>
+                        <span>age: {this.props.age} year</span>
                     </div>
                 </div>
             </div>
