@@ -11,7 +11,7 @@ const Nav = () => {
         <NavLink to="/massages">Massages</NavLink>
       </div>
       <div>
-        <a href="#">News</a>
+        <NavLink to="/News">News</NavLink>
       </div>
       <div>
         <a href="#">Music</a>
